@@ -1,28 +1,29 @@
-.button_image {
-    position: relative;
-    width: 50%;
+h1 {
+    font-family: cursive;
+    color: #5f021f;
 }
 
-.button_image img {
+img {
     width: 100%;
     height: auto;
 }
 
-.button_image .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+.btn_click {
+    background-color: green;
 }
 
-.button_image .btn:hover {
+.btn_click:hover {
     background-color: black;
+}
+
+.btn_four {
+    background-color: red;
+}
+
+.btn_four:hover {
+    background-color: black;
+}
+
+#nb_canelé {
+    color: #a47;
 }
