@@ -2,16 +2,18 @@
 <html>
     <head>
         <title>Canelé Clicker</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="index.css">
         <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
         <script type="text/javascript" src = "index.js"></script>
     </head>
-    <body>
+    <body onload="play_musique()">
 
         <h1>Canelé Clicker</h1>
         <p>Si la musique n'a pas été lancée, vous pouvez la lancer ici -></p>
-        <audio controls autoplay>
-            <source src="../music/Hans Zimmer - Time (Inception)-RxabLA7UQ9k.mp3" type="audio/mp3" />
+        <audio controls id="audiomedia">
+            <source src="../music/time_hans_zimer.mp3" type="audio/mp3" />
+            <source src="../music/forever_martin_garix.mp4" type="audio/mp3" />
         </audio>
 
         <img src="../image/canele36.jpg" alt="canele cliker">
