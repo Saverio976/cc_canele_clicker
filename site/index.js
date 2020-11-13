@@ -19,3 +19,8 @@ function NewFour() {
         alert("You haven't The Number OF Canelé !");
     }
 }
+
+function play_musique() {
+    let audio = document.getElementById("audiomedia");
+    audio.play();
+}
